@@ -1,0 +1,23 @@
+{
+  "name": "cc_datalogger",
+  "version": "1.0.0-Alpha",
+  "description": "Trade data logger. Provides JSON datasets for back testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "Ashfaq Ahmed S",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "config": "^1.30.0",
+    "lodash": "^4.17.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "socket-io": "^1.0.0",
+    "systemjs": "^0.21.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "name" : "bittrex",
+    "class": "./src/handlers/bittrex/BittrexLogger.js",
+    "url": "https://bittrex.com/api/v1.1/public/getorderbook",
+    "logDir": "./LogStash",
+    "interval": 1000,
+    "coins" : ["BTC-XRP","BTC-DGB"]
+}
